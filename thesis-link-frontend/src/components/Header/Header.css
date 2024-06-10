@@ -1,0 +1,27 @@
+#header {
+    .MuiBox-root {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        background-color: #d90d32;
+        padding: 8px 16px;
+
+        .feather-img {
+            width: 80px;
+            height: 80px;
+            margin-right: 24px;
+        }
+
+        .greeting {
+            font-family: "Recursive", sans-serif;
+            font-size: 36px;
+            color: white;
+        }
+
+        .sign-out-btn {
+            font-family: "Recursive", sans-serif;
+            margin-left: auto;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+#media-card {
+    .card-actions {
+        justify-content: flex-end;
+    }
+
+    .MuiTypography-root {
+        font-family: "Recursive", sans-serif;
+    }
+}

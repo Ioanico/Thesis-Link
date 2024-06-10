@@ -1,0 +1,56 @@
+#dashboard-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 8px;
+
+    .content {
+        box-sizing: border-box;
+        height: 100%;
+        display: flex;
+        gap: 32px;
+        padding: 16px;
+        background-color: #d9d9d9;
+        border-radius: 15px;
+        margin-top: 16px;
+        flex: 1;
+
+        .accordion {
+            .MuiTypography-root {
+                font-family: "Recursive", sans-serif;
+            }
+        }
+
+        .tutors-btn {
+            display: flex;
+            flex-direction: column;
+            font-family: "Recursive", sans-serif;
+            text-transform: none;
+            position: fixed;
+            bottom: 24px;
+            right: 2%;
+            font-size: 20px;
+            color: #000000b2;
+
+            .MuiButton-startIcon {
+                margin: unset;
+                width: 32px;
+                height: 32px;
+                color: #d90d32;
+
+                .MuiSvgIcon-root {
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+
+        .add-btn {
+            position: fixed;
+            bottom: 38px;
+            right: 2%;
+        }
+    }
+}

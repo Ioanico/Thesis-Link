@@ -1,0 +1,24 @@
+#landing-page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        font-family: "Recursive", sans-serif;
+        font-size: 70px;
+        font-weight: 700;
+        color: #d90d32;
+
+        .landing-text {
+            width: 500px;
+        }
+
+        .MuiButtonBase-root {
+            width: 20%;
+            margin-top: 16px;
+        }
+    }
+}
